@@ -3,7 +3,7 @@ void reverse_array(int *a)
 {
 	int n = sizeof(a)/sizeof(a[0]);
 	int t = 0, i;
-	for (i = 0; i < n; i++)
+	for (i = 0; i*i < n; i++)
 	{
 		t = a[i];
 		a[i] = a[10-i-1];
